@@ -1,0 +1,7 @@
+my_string = input("Выберите тип судна: ")
+print("Длина строки: ",len(my_string))
+print("Тип судна в верхнем регистре: ",my_string.upper())
+print("Тип судна в нижнем регистре: ",my_string.lower())
+print('Тип судна с удаленными пробелами: ',my_string.replace(' ', ''))
+print("Первый символ строки типа судна: ",my_string[0])
+print("Последний символ строки типа судна: ",my_string[-1])
